@@ -157,9 +157,9 @@ pip install tensorflow-gpu==2.x.x
 ```
 Test your installation by
 ```
-python -c"import tensorflow as tf;tf.test_is_gpu_available()"
+python -c"import tensorflow as tf;print(tf.test_is_gpu_available())"
 ```
-If you can see the names of your GPUs and the memory in ouptput then you installation is successful.
+If it prints True and you can see the names of your GPUs and the memory in ouptput then you installation is successful.
 
 #### PyTorch Installation
 
@@ -171,7 +171,7 @@ conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 Then test the installation via
 
 ```
-python -c"import torch;torch.cuda.is_available();torch.cuda.get_device_name()"
+python -c"import torch;print(torch.cuda.is_available());print(torch.cuda.get_device_name())"
 ```
 and it'll print out the name of one of the gpus in our machine
 
