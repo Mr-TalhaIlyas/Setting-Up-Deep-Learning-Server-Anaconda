@@ -222,4 +222,8 @@ Port <new port>
 // reboot system to take effect
 sudo reboot
 ```
+Restarting the SSH sever on Linux
 
+```
+sudo /etc/init.d/ssh restart
+```
