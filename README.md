@@ -227,3 +227,12 @@ Restarting the SSH sever on Linux
 ```
 sudo /etc/init.d/ssh restart
 ```
+## Edit MOTD of SSH start screen
+
+
+You need to edit two files:
+
+1.   `/etc/motd` (Message of the Day)
+2.   `/etc/ssh/sshd_config` here uncomment and change the setting `PrintLastLog` to `no`, this will disable the "Last login" message.
+
+And then restart your sshd.
