@@ -59,9 +59,9 @@ The type command on the page or below.
 ```
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin
 sudo mv cuda-ubuntu1804.pin /etc/apt/preferences.d/cuda-repository-pin-600
-wget https://developer.download.nvidia.com/compute/cuda/11.3.0/local_installers/cuda-repo-ubuntu1804-11-3-local_11.3.0-465.19.01-1_amd64.deb
-sudo dpkg -i cuda-repo-ubuntu1804-11-3-local_11.3.0-465.19.01-1_amd64.deb
-sudo apt-key add /var/cuda-repo-ubuntu1804-11-3-local/7fa2af80.pub
+wget https://developer.download.nvidia.com/compute/cuda/11.4.0/local_installers/cuda-repo-ubuntu1804-11-4-local_11.4.0-470.42.01-1_amd64.deb
+sudo dpkg -i cuda-repo-ubuntu1804-11-4-local_11.4.0-470.42.01-1_amd64.deb
+sudo apt-key add /var/cuda-repo-ubuntu1804-11-4-local/7fa2af80.pub
 sudo apt-get update
 sudo apt-get -y install cuda
 ```
@@ -74,7 +74,15 @@ sudo gedit ~/.bashrc
 you can use `vm` or other editors to but I am more comfertable with this one. Then add following lines at the end of opened window.
 
 ```
-
+#cuDNN path setup
+export CUDA_HOME=/usr/local/cuda-11.4
+export PATH=/usr/local/cuda-11.4/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda-11.4/lib64:${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+# end
+```
+change `11.4` to your installed version.then 
+```
+sudo reboot
 ```
 
 If everything went well you can check your CUDA version by typing.
@@ -89,4 +97,10 @@ and you will see
 s6.png)
 
 If not you'll have to uninstall everything related to NVIDIA using command mentioned above and debug.
+
+## 3. Install cuDNN
+
+You need to make an account on nvidia before downloading it. Each CUDA toolkit has its compatible cuDNN version so keep that in mind.
+After loggin in follow this [link](https://developer.nvidia.com/rdp/cudnn-archive) to download the cuDNN. I will download the cuDNN 8.2.4v as it is compatable with 11.4.
+
 
