@@ -103,21 +103,73 @@ If not you'll have to uninstall everything related to NVIDIA using command menti
 You need to make an account on nvidia before downloading it. Each CUDA toolkit has its compatible cuDNN version so keep that in mind.
 After logging in follow this [link](https://developer.nvidia.com/rdp/cudnn-archive) to download the cuDNN. I will download the cuDNN 8.2.4v as it is compatable with 11.4.
 
-There are many ways to install cuDNN, but I will follow one whihc I think is easy. So, first download the your respective `.tgz` file by clicking cuDNN Library of Linux [x86_64]. 
-
-s7.png)
-
-Then `cd` to the download dir and type
+There are many ways to install cuDNN, I will show you one method which I think is easy.
+Download the cuDNN Library of Linux [x85_64]. Then `cd` to the download dir and type follwoing commands
 
 ```
-tar -xzvf <full name of the file>.tgz
+// This will extract all the files in the same dir
+tar -xzvf <full ame of the file>.tgz
 ```
-This will extract all the files in `cuda` folder in same directory. Then you need to copy some files from the extracted folder to the dir where your CUDA is installed. Type followng
+Then copy soem files to where the CUDA is installed by typing following
 
 ```
 sudo cp cuda/include/cudnn*.h /usr/local/cuda/include 
 sudo cp -P cuda/lib64/libcudnn* /usr/local/cuda/lib64 
 sudo chmod a+r /usr/local/cuda/include/cudnn*.h /usr/local/cuda/lib64/libcudnn*
 ```
+Then check the cuDNN installation by typing.
 
+```
+cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
+```
+The `cat` command might not output anything. But as long as it don't give error just proceed.
 
+## 4. Install Anaconda
+
+Download the file from [link](), and as conda installer is a bash script. To run the installation script, use the command after navigating (`cd`) download dir.
+```
+bash Anaconda3-2020.02-Linux-x86_64.sh
+```
+check the name of the downloaded file.
+
+During Anaconda installation you might have to press `Enter` multiple times and it'll ask for multiple permision jsut go with the flow and allow default installation to proceed.
+Then restart your terminal and you will see (base) at start of your username.
+
+### 4.5. Create Conda `env`
+ 
+ We will create two enviornments with conda one for tensorflow and one for pytorch.
+ 
+For creating env type.
+```
+conda create -n <env_name> python=x.x
+// activate by
+conda activate  <env_name>
+```
+#### Tensorflow Installation
+
+Then install tensorflow via `pip`
+
+```
+// first install pip via
+sudo apt install python3-pip
+// install tensorflow
+pip install tensorflow-gpu==2.x.x
+```
+Test your installation by
+```
+python -c"import tensorflow as tf;tf.test_is_gpu_available()"
+```
+If you can see the names of your GPUs and the memory in ouptput then you installation is successful.
+
+#### PyTorch Installation
+
+Install pytorch as 
+
+```
+conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+```
+Then test the installation via
+
+```
+
+```
