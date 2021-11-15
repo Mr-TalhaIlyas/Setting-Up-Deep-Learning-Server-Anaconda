@@ -205,3 +205,21 @@ Firewall is disabled by default, and you can check the status with the following
 ```
 sudo ufw status
 ```
+## Optional Port Change
+
+You can also change to port of your SSH server if you want to for the type the following command
+
+```
+sudo gedit /etc/ssh/sshd_congfig
+```
+and locate line
+```
+# Port 22
+```
+Uncomment it and change the port number 
+```
+Port <new port>
+// reboot system to take effect
+sudo reboot
+```
+
