@@ -171,5 +171,10 @@ conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 Then test the installation via
 
 ```
-
+python -c"import torch;torch.cuda.is_available();torch.cuda.get_device_name()"
 ```
+and it'll print out the name of one of the gpus in our machine
+
+## 5. Starting the SSH service for Remote Connections
+
+
