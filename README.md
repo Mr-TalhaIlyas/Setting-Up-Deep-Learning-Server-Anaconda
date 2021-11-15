@@ -176,5 +176,32 @@ python -c"import torch;print(torch.cuda.is_available());print(torch.cuda.get_dev
 and it'll print out the name of one of the gpus in our machine
 
 ## 5. Starting the SSH service for Remote Connections
+For starting the SSH server follow the steps below.
 
+```
+sudo apt update
+sudo apt install openssh-server
+```
 
+When you install SSH, it runs automatically. You can check if SSH is running with the following command: 
+```
+sudo systemctl status ssh
+```
+if it shows active (running) then its running.
+
+s8.png)
+
+If it is not running, run it with the following command.
+```
+sudo systemctl enable ssh
+sudo systemctl start ssh
+```
+If you are using a firewall, make sure to allow ssh. If your firewall is disabled, you can ignore it.
+
+```
+sudo ufw allow ssh
+```
+Firewall is disabled by default, and you can check the status with the following command.
+```
+sudo ufw status
+```
