@@ -103,4 +103,21 @@ If not you'll have to uninstall everything related to NVIDIA using command menti
 You need to make an account on nvidia before downloading it. Each CUDA toolkit has its compatible cuDNN version so keep that in mind.
 After logging in follow this [link](https://developer.nvidia.com/rdp/cudnn-archive) to download the cuDNN. I will download the cuDNN 8.2.4v as it is compatable with 11.4.
 
+There are many ways to install cuDNN, but I will follow one whihc I think is easy. So, first download the your respective `.tgz` file by clicking cuDNN Library of Linux [x86_64]. 
+
+s7.png)
+
+Then `cd` to the download dir and type
+
+```
+tar -xzvf <full name of the file>.tgz
+```
+This will extract all the files in `cuda` folder in same directory. Then you need to copy some files from the extracted folder to the dir where your CUDA is installed. Type followng
+
+```
+sudo cp cuda/include/cudnn*.h /usr/local/cuda/include 
+sudo cp -P cuda/lib64/libcudnn* /usr/local/cuda/lib64 
+sudo chmod a+r /usr/local/cuda/include/cudnn*.h /usr/local/cuda/lib64/libcudnn*
+```
+
 
