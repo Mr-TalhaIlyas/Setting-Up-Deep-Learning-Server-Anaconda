@@ -97,7 +97,7 @@ nvcc -V
 ```
 and you will see
 
-s6.png)
+![alt text](https://github.com/Mr-TalhaIlyas/Setting-Up-Deep-Learning-Server-Anaconda/blob/main/Pictures/s6.png)
 
 If not you'll have to uninstall everything related to NVIDIA using command mentioned above and debug. Also delete the files in `/usr/local` if any remaining.
 
