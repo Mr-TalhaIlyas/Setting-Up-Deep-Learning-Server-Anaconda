@@ -24,7 +24,7 @@ $ sudo apt update
 $ apt-cache search nvidia | grep nvidia-driver-470 
 ```
 
-s2.png)
+![alt text](https://github.com/Mr-TalhaIlyas/Setting-Up-Deep-Learning-Server-Anaconda/blob/main/Pictures/s2.png)
 
 Now lets install drivers using APT
 
