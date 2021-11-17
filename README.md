@@ -57,7 +57,7 @@ For using the Tensorflow or Pythorch we need to install the CUDA toolkit. Import
 As CUDA 11.3 is compatible with both so we will install that one.
 Follow this [link](https://developer.nvidia.com/cuda-toolkit-archive) to get your desired version, and select appropriate options
 
-s4.png)
+![alt text](https://github.com/Mr-TalhaIlyas/Setting-Up-Deep-Learning-Server-Anaconda/blob/main/Pictures/s4.png)
 The type command on the page or below.
 ```
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin
