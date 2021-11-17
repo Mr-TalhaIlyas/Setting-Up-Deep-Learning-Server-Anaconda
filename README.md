@@ -110,7 +110,9 @@ You need to make an account on nvidia before downloading it. Each CUDA toolkit h
 After logging in follow this [link](https://developer.nvidia.com/rdp/cudnn-archive) to download the cuDNN. I will download the cuDNN 8.2.4v as it is compatable with 11.4.
 
 There are many ways to install cuDNN, I will show you one method which I think is easy.
-Download the cuDNN Library of Linux [x85_64]. Then `cd` to the download dir and type follwoing commands
+Download the **cuDNN Library of Linux [x85_64]**. Then `cd` to the download dir and type follwoing commands
+
+![alt text](https://github.com/Mr-TalhaIlyas/Setting-Up-Deep-Learning-Server-Anaconda/blob/main/Pictures/s7.png)
 
 ```
 // This will extract all the files in the same dir
