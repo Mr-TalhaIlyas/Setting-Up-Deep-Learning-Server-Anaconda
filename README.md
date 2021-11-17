@@ -249,7 +249,7 @@ And then restart your sshd.
 
 Welcome screen
 
-![alt text](https://github.com/Mr-TalhaIlyas/Setting-Up-Deep-Learning-Server-Anaconda/tree/main/Pictures/s9.png)
+![alt text](https://github.com/Mr-TalhaIlyas/Setting-Up-Deep-Learning-Server-Anaconda/blob/main/Pictures/s9.png)
 
 Or connect via VS Code 
 
