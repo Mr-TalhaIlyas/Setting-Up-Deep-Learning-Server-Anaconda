@@ -192,7 +192,7 @@ sudo systemctl status ssh
 ```
 if it shows active (running) then its running.
 
-s8.png)
+![alt text](https://github.com/Mr-TalhaIlyas/Setting-Up-Deep-Learning-Server-Anaconda/blob/main/Pictures/s8.png)
 
 If it is not running, run it with the following command.
 ```
