@@ -1,3 +1,6 @@
+[![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg) [![made-with-bash](https://img.shields.io/badge/Made%20with-Bash-1f425f.svg)](https://www.gnu.org/software/bash/)
+
+
 # Setting-Up-Deep-Learning-Server-Anaconda
 
 ## 1. Install GPU drivers
