@@ -11,7 +11,7 @@
 ubuntu-drivers devices
 ```
 
-s1.png)
+![alt text](https://github.com/Mr-TalhaIlyas/Setting-Up-Deep-Learning-Server-Anaconda/blob/main/Pictures/s1.png)
 
 Now install GPU drivers. I will install 470v drivers as shown in above images, so lets proceed.
 
