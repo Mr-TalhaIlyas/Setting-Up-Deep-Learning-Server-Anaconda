@@ -245,5 +245,13 @@ You need to edit two files:
 
 And then restart your sshd.
 
+### Connect via MobaXterm
 
+Welcome screen
+
+![alt text](https://github.com/Mr-TalhaIlyas/Setting-Up-Deep-Learning-Server-Anaconda/tree/main/Pictures/s9.png)
+
+Or connect via VS Code 
+
+Follow instructions onbelow link to connect via VS code. It in korean so turn on google translator.
 https://jstar0525.tistory.com/14
