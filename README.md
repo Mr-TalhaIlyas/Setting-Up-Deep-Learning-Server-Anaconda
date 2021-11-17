@@ -69,6 +69,9 @@ sudo apt-get update
 sudo apt-get -y install cuda
 ```
 The third command will download the files so it might take a while depending on the internet speed.
+
+![alt text](https://github.com/Mr-TalhaIlyas/Setting-Up-Deep-Learning-Server-Anaconda/blob/main/Pictures/s5.png)
+
 Next you need to set the Enviornment variables, in `~/.bashrc` so type
 
 ```
