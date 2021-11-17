@@ -46,7 +46,7 @@ after installation verify it by
 ```
 nvidia-smi
 ```
-s3.png)
+![alt text](https://github.com/Mr-TalhaIlyas/Setting-Up-Deep-Learning-Server-Anaconda/blob/main/Pictures/s3.png)
 
 ## 2. Install NVIDIA CUDA Toolkit
 
