@@ -254,7 +254,7 @@ Welcome screen
 ## IDE
 
 ### Spyder
-[Spyder]() is the simplest, easiest IDE available for data science projects. If you are new to ML/DL then this is best IDE for you. For installation, after creating your `env` you can install Spyder via following command
+[Spyder](https://www.spyder-ide.org/) is the simplest, easiest IDE available for data science projects. If you are new to ML/DL then this is best IDE for you. For installation, after creating your `env` you can install Spyder via following command
 
 ```
 conda instll spyder
@@ -262,7 +262,7 @@ conda instll spyder
 and to use it just activate your env and type `spyder` in terminal.
 
 ### VS Code on server
-For installing code on linux server via `snap` type
+For installing [VS Code](https://code.visualstudio.com/) on linux server via `snap` type
 
 ```
 sudo snap install code --classic
@@ -271,5 +271,5 @@ and then from terminal run `code` and you are all set.
 
 ### Connect via VS Code from remote PC 
 
-Follow instructions onbelow link to connect via VS code. It in korean so turn on google translator.
-https://jstar0525.tistory.com/14
+Follow instructions in this [BlogPost](https://jstar0525.tistory.com/14) to connect to your `ssh` server via VS code. It in korean so turn on google translator.
+
