@@ -273,3 +273,20 @@ and then from terminal run `code` and you are all set.
 
 Follow instructions in this [BlogPost](https://jstar0525.tistory.com/14) to connect to your `ssh` server via VS code. It in korean so turn on google translator.
 
+## Display GPU stats in Compact view for mini-windows
+Install `gpustat` via
+
+```
+pip install gpustat
+// then to see type
+gpustat -cp
+```
+you'll see follwoin compact view
+
+stat.png)
+
+or to continuously watch type
+
+```
+watch -c gpustat -cp --color
+```
