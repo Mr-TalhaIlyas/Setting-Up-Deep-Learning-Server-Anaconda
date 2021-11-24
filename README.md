@@ -283,7 +283,7 @@ gpustat -cp
 ```
 you'll see follwoin compact view
 
-stat.png)
+![alt text](https://github.com/Mr-TalhaIlyas/Setting-Up-Deep-Learning-Server-Anaconda/blob/main/Pictures/stat.png)
 
 or to continuously watch type
 
