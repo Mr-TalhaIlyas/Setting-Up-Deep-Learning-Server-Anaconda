@@ -1,7 +1,7 @@
 [![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg) [![made-with-bash](https://img.shields.io/badge/Made%20with-Bash-1f425f.svg)](https://www.gnu.org/software/bash/) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FMr-TalhaIlyas%2FSetting-Up-Deep-Learning-Server-Anaconda&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 # Setting-Up-Deep-Learning-Server-Anaconda
-
+for setting deep learning server via Docker go [here](https://github.com/Mr-TalhaIlyas/Deep-Learning-Sever-via-Docker)
 ## 1. Install GPU drivers
 
 1st type the following command to get the list of recommend drivers for your PC.
