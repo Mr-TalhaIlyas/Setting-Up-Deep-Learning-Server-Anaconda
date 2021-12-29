@@ -276,8 +276,7 @@ Just type `ssh username@your_ip_address` and press `enter`.
 
 Then vs code will ask you for passworkd. If it gives error then it means your srever port is other than default port `22` then you have to specify the custom port by editing the `config` file of  vs code as below. Yor can edit that by click the dialogue box which opens when you enter your user name and ip.
 
-![alt text](https://github.com/Mr-TalhaIlyas/Setting-Up-Deep-Learning-Server-Anaconda/blob/main/Pictures/congfig.png)
-
+![alt text](https://github.com/Mr-TalhaIlyas/Setting-Up-Deep-Learning-Server-Anaconda/blob/main/Pictures/config.png)
 
 ## Display GPU stats in Compact view for mini-windows
 Install `gpustat` via
