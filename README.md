@@ -2,6 +2,8 @@
 
 # Setting-Up-Deep-Learning-Server-Anaconda
 for setting deep learning server via Docker go [here](https://github.com/Mr-TalhaIlyas/Deep-Learning-Sever-via-Docker)
+Assuming that you already have a machine runnning Linux/Ubuntu.
+
 ## 1. Install GPU drivers
 
 1st type the following command to get the list of recommend drivers for your PC.
