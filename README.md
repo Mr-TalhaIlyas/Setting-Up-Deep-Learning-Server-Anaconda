@@ -135,7 +135,7 @@ The `cat` command might not output anything. But as long as it don't give error 
 
 ## 4. Install Anaconda
 
-Download the file from [link](), and as conda installer is a bash script. To run the installation script, use the command after navigating (`cd`) download dir.
+Download the file from [link](https://www.anaconda.com/products/distribution), and as conda installer is a bash script. To run the installation script, use the command after navigating (`cd`) download dir.
 ```
 bash Anaconda3-2020.02-Linux-x86_64.sh
 ```
