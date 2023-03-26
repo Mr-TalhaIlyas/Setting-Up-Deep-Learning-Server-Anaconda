@@ -104,7 +104,9 @@ and you will see
 ![alt text](https://github.com/Mr-TalhaIlyas/Setting-Up-Deep-Learning-Server-Anaconda/blob/main/Pictures/s6.png)
 
 If not you'll have to uninstall everything related to NVIDIA using command mentioned above and debug. Also delete the files in `/usr/local` if any remaining.
-
+```
+sudo apt-get autoremove --purge cuda
+```
 ## 3. Install cuDNN
 
 You need to make an account on nvidia before downloading it. Each CUDA toolkit has its compatible cuDNN version so keep that in mind.
