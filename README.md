@@ -122,7 +122,7 @@ Download the `cuDNN Runtime Library of Linux [x85_64]. Then `cd` to the download
 tar -xzvf <full ame of the file>.tgz
 ```
 Then copy soem files to where the CUDA is installed by typing following
-
+*in the newer versions the `lib64` might be replaced by just `lib` then just update the command by removing `64`and copy the files.*
 ```
 sudo cp cuda/include/cudnn*.h /usr/local/cuda/include 
 sudo cp -P cuda/lib64/libcudnn* /usr/local/cuda/lib64 
