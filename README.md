@@ -146,6 +146,13 @@ check the name of the downloaded file.
 During Anaconda installation you might have to press `Enter` multiple times and it'll ask for multiple permision jsut go with the flow and allow default installation to proceed.
 Then restart your terminal and you will see (base) at start of your username.
 
+Then Verify that your shell's configuration file (e.g., .bashrc, .bash_profile, or .zshrc) contains the necessary lines to initialize Conda. Open the configuration file with a text editor and check for lines like:
+```bash
+# Anaconda3
+export PATH="/home/your_username/anaconda3/bin:$PATH"
+```
+The reopen terminal and write `conda init`.
+
 ### 4.5. Create Conda `env`
  
  We will create two enviornments with conda one for tensorflow and one for pytorch.
