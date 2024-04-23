@@ -309,3 +309,9 @@ or to continuously watch type
 ```
 watch -c gpustat -cp --color
 ```
+
+
+Reference:
+
+https://gist.github.com/denguir/b21aa66ae7fb1089655dd9de8351a202
+https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#network-repo-installation-for-ubuntu
