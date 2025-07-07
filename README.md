@@ -1,4 +1,9 @@
-[![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg) [![made-with-bash](https://img.shields.io/badge/Made%20with-Bash-1f425f.svg)](https://www.gnu.org/software/bash/) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FMr-TalhaIlyas%2FSetting-Up-Deep-Learning-Server-Anaconda&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+[![OS: Linux](https://img.shields.io/badge/OS-Linux-2BBC8A?style=flat-square&logo=linux)](https://www.kernel.org/)
+[![Shell: Bash](https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat-square&logo=gnu-bash)](https://www.gnu.org/software/bash/)
+[![Anaconda](https://img.shields.io/badge/Anaconda-2023.11-44A833?style=flat-square&logo=anaconda)](https://www.anaconda.com/)
+[![License](https://img.shields.io/github/license/Mr-TalhaIlyas/Setting-Up-Deep-Learning-Server-Anaconda?style=flat-square)](https://github.com/Mr-TalhaIlyas/Setting-Up-Deep-Learning-Server-Anaconda/blob/main/LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/Mr-TalhaIlyas/Setting-Up-Deep-Learning-Server-Anaconda?style=flat-square)](https://github.com/Mr-TalhaIlyas/Setting-Up-Deep-Learning-Server-Anaconda/commits/main)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/Mr-TalhaIlyas/Setting-Up-Deep-Learning-Server-Anaconda&count_bg=%2379C83D&title_bg=%23555555&edge_flat=false)](https://hits.seeyoufarm.com)
 
 # Setting-Up-Deep-Learning-Server-Anaconda
 for setting deep learning server via Docker go [here](https://github.com/Mr-TalhaIlyas/Deep-Learning-Sever-via-Docker)
